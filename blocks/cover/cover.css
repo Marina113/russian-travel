@@ -1,4 +1,4 @@
-.covers{
+.cover{
   margin: 0 auto;
   max-width: 1184px;
   min-height: 740px;
@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.covers::before{
+.cover::before{
   content: "";
   position: absolute;
   top: 0;
@@ -21,11 +21,11 @@
   opacity: 0.3;
   background: #2A2C2F;
 }
-.covers:hover{
+.cover:hover{
   opacity: 0.7;
 }
 @media screen and (max-width:1024px){
-.covers{
+.cover{
   margin: 0;
   max-width: 1024px;
   min-height: 640px;
@@ -33,20 +33,20 @@
 }
 }
 @media screen and (max-width:768px){
-  .covers{
+  .cover{
     max-width: 768px;
     min-height: 480px;
     margin-bottom: 88px;
   }
 }
 @media screen and (min-width:321px) and (max-width:690px){
-  .covers{
+  .cover{
     width: 100%;
     min-height: 300px;
   }
 }
 @media screen and (max-width:320px){
-.covers{
+.cover{
   max-width: 320px;
   min-height: 200px;
   margin-bottom: 64px;
