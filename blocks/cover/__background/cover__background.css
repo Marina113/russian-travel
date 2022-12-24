@@ -1,8 +1,0 @@
-.cover__background {
-  margin: 0 auto;
-  max-width: 1184px;
-  width: 100%;
-  background: url(../../../images/cover-trains.jpg) no-repeat center / cover;
-  /*object-fit: cover;*/
-  position: relative;
-}
